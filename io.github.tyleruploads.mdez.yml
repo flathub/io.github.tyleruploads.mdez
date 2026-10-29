@@ -16,10 +16,12 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/tyleruploads/mdez/archive/refs/tags/v0.14.0.tar.gz
-        sha256: eb7f47a5122dbc9ce87067337aab1505617b43f23840785efb729935e44d05f2
+        url: https://api.github.com/repos/tyleruploads/mdez/tarball/v0.15.0
+        sha256: fca4bc77516e4a306bc0f6c855cd02ef3ffa90c48c1a8526e9a98915506d8d9f
+        dest-filename: mdez.tar.gz
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tyleruploads/mdez/releases/latest
           version-query: .tag_name
           url-query: .tarball_url
+          is-main-source: true
