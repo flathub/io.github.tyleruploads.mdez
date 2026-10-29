@@ -17,7 +17,7 @@ modules:
     sources:
       - type: archive
         url: https://api.github.com/repos/tyleruploads/mdez/tarball/v0.15.0
-        sha256: 39b38ee417583922c6a0ff0a4bc517e9ac6eb4ed7b98b7a21fe2b669daf7a6e3
+        sha256: fca4bc77516e4a306bc0f6c855cd02ef3ffa90c48c1a8526e9a98915506d8d9f
         dest-filename: mdez.tar.gz
         x-checker-data:
           type: json
