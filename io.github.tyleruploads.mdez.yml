@@ -16,8 +16,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://api.github.com/repos/tyleruploads/mdez/tarball/v0.15.0
-        sha256: fca4bc77516e4a306bc0f6c855cd02ef3ffa90c48c1a8526e9a98915506d8d9f
+        url: https://api.github.com/repos/tyleruploads/mdez/tarball/v0.16.0
+        sha256: 206f540681b8a544a4282a6f0359d9f28d1f9400449881a9ab10969b96f394cb
         dest-filename: mdez.tar.gz
         x-checker-data:
           type: json
